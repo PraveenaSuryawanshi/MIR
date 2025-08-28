@@ -1,6 +1,7 @@
 import  { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, Brush } from 'recharts';
+import style from './compnents.module.css';
 
 const useAnalyses = () => useSelector((s) => s.analyses.items);
 
@@ -22,7 +23,7 @@ const Chart = ({ dataset }) => {
 
 
     return (
-        <div style={{ height: 360, border: '1px solid #e5e7eb', borderRadius: 12, padding: 8 }}>
+        <div className={style.chartContainer}>
             <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={data} margin={{ top: 10, right: 20, left: 0, bottom: 10 }}>
                     <CartesianGrid strokeDasharray="3 3" />
