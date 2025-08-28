@@ -1,0 +1,3 @@
+export const SET_DATASETS = 'SET_DATASETS';
+export const SELECT_DATASET = 'SELECT_DATASET';
+export const SET_ANALYSES = 'SET_ANALYSES';
