@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MIR/static/css/main.f855e6bc.css",
+    "main.js": "/MIR/static/js/main.1fc21185.js",
+    "static/js/453.8b589b1e.chunk.js": "/MIR/static/js/453.8b589b1e.chunk.js",
+    "index.html": "/MIR/index.html",
+    "main.f855e6bc.css.map": "/MIR/static/css/main.f855e6bc.css.map",
+    "main.1fc21185.js.map": "/MIR/static/js/main.1fc21185.js.map",
+    "453.8b589b1e.chunk.js.map": "/MIR/static/js/453.8b589b1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.1fc21185.js"
+  ]
+}
