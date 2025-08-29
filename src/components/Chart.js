@@ -10,6 +10,7 @@ const Chart = ({ dataset }) => {
     const analyses = useAnalyses().filter((a) => a.dataset_id === dataset.id);
    
     const data = useMemo(() => {
+
         const m = new Map();
         (dataset.historical || []).forEach(([date, value]) => m.set(date, { date, actual: value }));
         analyses.forEach((a) => {
