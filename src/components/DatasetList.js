@@ -15,7 +15,7 @@ const DatasetList = () => {
         <div className={style.dataList}>
             <div className={style.dataListContainer}>
                 {datasets.map((d) => (
-                    <button key={d.id} onClick={() => dispatch(selectDataset(d.id))} style={{ textAlign: 'left', border: '1px solid #e5e7eb', borderRadius: 8, padding: 8, background: selected === d.id ? '#eef2ff' : 'white' }}>
+                    <button key={d.id} onClick={() => dispatch(selectDataset(d.id))} style={{background: selected === d.id ? '#eef2ff' : 'white' }}>
                         <h4>{d.name}</h4>
                         <p>{d.description}</p>
                     </button>

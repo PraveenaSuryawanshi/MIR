@@ -35,6 +35,13 @@
   padding: 8px;
 }
 
+.dataList > button {
+     text-align: 'left';
+    border: '1px solid #e5e7eb';
+    border-radius: 8;
+    padding: 8;
+}
+
 p {
   font-size: 12px;
   color: #64748b;
