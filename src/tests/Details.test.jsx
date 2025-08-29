@@ -39,9 +39,7 @@ describe('<Details />', () => {
         selectedId: 'b',
       },
     };
-
     renderWithState(<Details />, state);
-
     expect(screen.getByText('Dataset B')).toBeInTheDocument();
     expect(screen.getByText('Bravo desc')).toBeInTheDocument();
   });
@@ -55,7 +53,6 @@ describe('<Details />', () => {
     };
 
     renderWithState(<Details />, state);
-
     const chartProps = JSON.parse(screen.getByTestId('chart-props').textContent);
     expect(chartProps.dataset).toBeTruthy();
     expect(chartProps.dataset.id).toBe('a');
