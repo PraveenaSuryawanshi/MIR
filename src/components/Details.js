@@ -11,7 +11,6 @@ const Details = () => {
     const datasets = useDatasets();
     const id = useSelectedId();
     const d = datasets.find((x) => x.id === id);
-    if (!d) return <div style={{ color: '#64748b' }}>Select a dataset…</div>;
     return (
         <div className={style.details}>
             <div className={style.dataList}>
