@@ -10,13 +10,13 @@ const Chart = ({ dataset }) => {
     const analyses = useAnalyses().filter((a) => a.dataset_id === dataset.id);
    
     const data = useMemo(() => {
-
         const m = new Map();
         (dataset.historical || []).forEach(([date, value]) => m.set(date, { date, actual: value }));
         analyses.forEach((a) => {
             Object.entries(a.forecast || {}).forEach(([date, v]) => {
                 const row = m.get(date) || { date };
-                row['f_' + a.id] = v; m.set(date, row);
+                row['f_' + a.id] = v; 
+                m.set(date, row);
             });
         });
         return Array.from(m.values()).sort((a, b) => a.date.localeCompare(b.date));
