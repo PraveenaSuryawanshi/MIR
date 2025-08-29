@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MIR/static/css/main.fc88758f.css",
-    "main.js": "/MIR/static/js/main.08797f4e.js",
+    "main.js": "/MIR/static/js/main.b92a1bc2.js",
     "static/js/453.8b589b1e.chunk.js": "/MIR/static/js/453.8b589b1e.chunk.js",
     "index.html": "/MIR/index.html",
     "main.fc88758f.css.map": "/MIR/static/css/main.fc88758f.css.map",
-    "main.08797f4e.js.map": "/MIR/static/js/main.08797f4e.js.map",
+    "main.b92a1bc2.js.map": "/MIR/static/js/main.b92a1bc2.js.map",
     "453.8b589b1e.chunk.js.map": "/MIR/static/js/453.8b589b1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc88758f.css",
-    "static/js/main.08797f4e.js"
+    "static/js/main.b92a1bc2.js"
   ]
 }
